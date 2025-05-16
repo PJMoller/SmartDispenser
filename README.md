@@ -2,5 +2,5 @@
 
 
 Temporary libraries to install:
-HX711
-RPi.GPIO
+- HX711
+- RPi.GPIO
