@@ -1,0 +1,227 @@
+Smart Liquid Dispenser User Manual 
+
+
+​ Introduction 
+
+Welcome to your Smart Liquid Dispenser, a kitchen revolution designed for precision and convenience. This pre-assembled, IoT ready device simplifies cooking, baking, and crafting by delivering exact liquid quantities at the touch of a button. 
+
+Key Benefits: 
+
+Accuracy: Dispenses liquids within ±5% margin of error 
+
+Ease of Use: Intuitiv LCD interface with button controls 
+
+Food Safe: Food-grade tubing and pump materials 
+
+Compact Design: Fits seamlessly on countertops or under cabinets 
+
+Ideal for: Home cooks, bartenders, lab technicians, and DIY enthusiasts. 
+
+ 
+
+Product Overview 
+
+The Smart Liquid Dispenser is a pre-calibrated unit featuring: 
+
+20x4 LCD Display: with real-time feedback 
+
+Peristaltic Pump: for precise, drip-free dispensing 
+
+Raspberry Pi Pico W: microcontroller  
+
+Pre-installed Software  
+
+ 
+
+Safety Instructions 
+
+WARNING: 
+
+Always unplug the device before performing any maintenance 
+
+Use only with food-grade liquids 
+
+Do not submerge any electrical components in water 
+
+Ensure proper ventilation around the device 
+
+Keep away from children and pets when in operation 
+
+ 
+
+Hardware Setup 
+
+Components Included: 
+
+    Raspberry Pi Pico W microcontroller 
+
+    Peristaltic pump with silicone tubing 
+
+    20x4 LCD display with I2C adapter 
+
+    Power supply (5-6V DC) 
+
+    Mounting hardware 
+
+Assembly Instructions: 
+
+    Connect the power supply to the Raspberry Pi Pico W 
+
+    Prime the pump by filling the tubing with liquid before first use 
+
+ 
+
+Operation Guide 
+
+Basic Operation: 
+
+    Power on the device 
+
+    Ensure the pump tubing is primed with liquid 
+
+    The LCD will display "Enter amount (ml):" 
+
+    Input the desired volume in milliliters via the connected computer or using the buttons. 
+
+    The device will: 
+
+    Display the dispensing progress on the LCD 
+
+    Show remaining time 
+
+    Automatically stop when complete 
+
+    "Done!" will display when dispensing is complete 
+
+Advanced Features: 
+
+For voice control implementation, refer to the developer documentation 
+
+Mobile app integration requires additional setup (see GitHub repository) 
+
+ 
+
+Maintenance 
+
+Regular Maintenance: 
+
+Every three months or whenever changing liquids a maintnance is required 
+
+Calibrate pump flow rate 
+
+Check tubing for wear and replace if necessary 
+
+Cleaning: 
+
+    Power off the device 
+
+    Disconnect tubing 
+
+    Flush with warm, soapy water 
+
+    Rinse thoroughly with clean water 
+
+    Allow to dry completely before reassembly 
+
+ 
+
+Troubleshooting 
+
+ 
+
+Symptom 
+	
+
+Possible Cause 
+	
+
+Solution 
+
+No power 
+	
+
+Loose connection 
+	
+
+Check all power connections 
+
+Pump not working 
+	
+
+Incorrect wiring 
+	
+
+Verify GPIO connections 
+
+Inaccurate volume 
+	
+
+Clogged tubing 
+	
+
+Clean or replace tubing 
+
+LCD not displaying 
+	
+
+I2C address mismatch 
+	
+
+Verify I2C address (default 0x27) 
+
+Error messages 
+	
+
+Software issue 
+	
+
+Restart device and check code 
+
+ 
+
+Technical Specifications 
+
+Parameter 
+	
+
+Specification 
+
+Dispensing Accuracy 
+	
+
+±5% 
+
+Flow Rate 
+	
+
+39 ml/min 
+
+Operating Voltage 
+	
+
+5V DC 
+
+Power Consumption 
+	
+
+500-600mA (operating) 
+
+Wireless Connectivity 
+	
+
+WiFi 802.11 b/g/n, Bluetooth 5.2 
+
+Dimensions 
+	
+
+Varies by enclosure 
+
+ 
+
+Support 
+
+For technical support, and for latest documentation and firmware updates refer to: 
+
+    GitHub: https://github.com/PJMoller/SmartDispenser 
+
+ 
