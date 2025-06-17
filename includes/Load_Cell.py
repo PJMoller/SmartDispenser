@@ -22,3 +22,4 @@ while True:
     weight = hx.get_units(10)  # average 10 readings for smoothness
     print(f"Contents weight: {weight:.2f} g")
     time.sleep(1)
+
