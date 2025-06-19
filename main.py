@@ -147,7 +147,7 @@ def dispense_ml(target_volume):
         if deviation <= ALLOWED_DEVIATION_PERCENT:
             lcd.clear()
             lcd.set_cursor_pos(0, 0)
-            lcd.print(f"Dispensed: {target_volume:.1f}g")
+            lcd.print(f"Dispensed: {target_volume:.1f}ml")
             break
         else:
             if total_dispensed < target_volume:
@@ -168,4 +168,3 @@ lcd.print("Ready to dispense")
 while True:
     volume = select_volume(initial_step)
     dispense_ml(volume)
-
